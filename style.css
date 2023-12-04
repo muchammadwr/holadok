@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "source-sans-pro", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav {
+  display: flex;
+  width: 1140px;
+  align-items: center;
+  margin: 58px auto 0;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  width: 199px;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo p a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #101c45;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 646px;
+  list-style: none;
+  gap: 50px;
+  color: #101c45;
+}
+
+.menu ul li a {
+  display: flex;
+  text-decoration: none;
+  font-weight: 400;
+  color: #101c45;
+}
+
+.cta {
+  display: flex;
+  width: 295px;
+  gap: 20px;
+  justify-content: flex-end;
+}
+
+.cta a {
+  text-decoration: none;
+}
+
+.login {
+  padding: 8px 20px;
+  font-weight: 700;
+  color: #101c45;
+}
+
+.booking {
+  border: 1px solid #101c45;
+  padding: 8px 20px;
+  font-weight: 700;
+  color: #101c45;
+}
+
+.hero {
+  display: flex;
+  margin-top: 150px;
+}
+
+.hero_text {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 457px;
+  height: 391px;
+  top: 246px;
+  left: 150px;
+}
+
+.hero_text h1 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  color: #101c45;
+}
+
+.hero_text p {
+  color: #101c45;
+  margin-top: 15px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.btn_hero {
+  margin-top: 40px;
+  padding: 15px 35px;
+  text-decoration: none;
+  color: #fff;
+  background: #203271;
+}
+
+.card {
+  position: absolute;
+  left: 45%;
+  top: 32%;
+  display: flex;
+  flex-direction: column;
+  width: 292px;
+  height: 182px;
+  padding: 20px;
+  gap: 12px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card p {
+  color: #101c45;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.wrap_photo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.photo p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.bg_blue {
+  position: absolute;
+  left: 55%;
+  top: 4%;
+  z-index: -99;
+}
+
+.bg_photo {
+  position: absolute;
+  z-index: -98;
+  left: 57%;
+  top: 12%;
+}
+
+.footer {
+  background: #203271;
+  display: flex;
+  padding: 40px;
+  width: 1221px;
+  height: 191px;
+  z-index: 100;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.calender {
+  display: flex;
+  gap: 25px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.calender h3 {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.calender > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lonceng {
+  display: flex;
+  gap: 25px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.lonceng h3 {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.lonceng > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.location {
+  display: flex;
+  gap: 25px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.location h3 {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.location > .text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
